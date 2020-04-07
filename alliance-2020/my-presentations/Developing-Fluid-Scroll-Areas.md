@@ -97,7 +97,7 @@ This method is more difficult to implement, but is much more flexible. The first
 Now, the PeopleCode to insert the row must be created. This code can be triggered by the Record Field Change event or the Component Record Field Change event. 
 
 Example code:</br>
-```Local Rowset &rs = GetLevel0()(1).GetRowset(Scroll.CW_SCHOOL_STP);```
+```Local Rowset &rs = GetLevel0()(1).GetRowset(Scroll.CW_SCHOOL_STP);```</br>
 ```&rs.InsertRow(&rs.ActiveRowCount);```
 
 ### Row Delete
@@ -136,7 +136,7 @@ In the Push Button/Hyperlink Properties type tab, set the Destination to 'People
 Now, the PeopleCode to delete the row must be created. This code can be triggered by the Record Field Change event or the Component Record Field Change event. 
 
 Example code:</br>
-```Local Rowset &rs = GetLevel0()(1).GetRowset(Scroll.CW_SCHOOL_STP);```
+```Local Rowset &rs = GetLevel0()(1).GetRowset(Scroll.CW_SCHOOL_STP);```</br>
 ```&rs.DeleteRow(CurrentRowNumber());```
 
 ### Previous
