@@ -120,6 +120,8 @@ After that, make it functional according to one of the following sections.
 #### Scroll Action Properties
 In the Push Button/Hyperlink Properties type tab, set the Destination to 'Scroll Action', the Action Type to 'Row Delete', and the Related Control to the desired scroll area. 
 
+***\*Scroll Level should be same as scroll area***
+
 ![](images/delete-scroll-action.png)
 <p align="center" style="margin-top: -15px;">
 <b>Figure 11: Scroll Area Properties: setting scroll area type to Scroll Action.</b>
@@ -127,6 +129,8 @@ In the Push Button/Hyperlink Properties type tab, set the Destination to 'Scroll
 
 #### PeopleCode
 In the Push Button/Hyperlink Properties type tab, set the Destination to 'PeopleCode Command' and associate the push button record and field names. 
+
+***\*Scroll Level should be outside scroll area level***
 
 ![](images/delete-peoplecode.png)
 <p align="center" style="margin-top: -15px;">
