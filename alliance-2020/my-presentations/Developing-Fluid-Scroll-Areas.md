@@ -305,6 +305,11 @@ Adding these new controls to the scroll will generally not be enough to provide 
 Here is the final page after performing steps 6 and 7 of the classic to fluid conversion instructions. 
 
 <p align="center">
+<img src="images/app-designer-final.png"></br>
+Figure 32: Final page design in app designer.
+</p>
+
+<p align="center">
 <img src="images/view-one-page.png"></br>
 Figure 32: Final View One Scroll.
 </p>
